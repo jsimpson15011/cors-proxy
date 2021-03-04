@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/homesliceweb/cors-anywhere.homesliceweb.com/web-app
+    - export DEPLOYPATH=/home2/homesliceweb/cors-anywhere.homesliceweb.com/web-app
     - /bin/cp -R lib $DEPLOYPATH
     - /bin/cp .eslintignore $DEPLOYPATH
     - /bin/cp .eslintrc $DEPLOYPATH
